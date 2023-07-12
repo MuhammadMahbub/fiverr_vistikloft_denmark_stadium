@@ -1,0 +1,60 @@
+/* common css start */
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+/* common css end */
+
+/* scoreboard section css start */
+#scorebord {
+    margin-top: 100px;
+    text-align: center;
+}
+#scorebord .score, #scorebord .game_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#scorebord .score h2 {
+    font-size: 38px;
+    font-weight: 500;
+}
+#scorebord .score button {
+    background-color: black;
+    padding: 0px 40px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 20px;
+    line-height: initial;
+}
+#scorebord .game_info {
+    margin-top: 20px;
+}
+#scorebord .game_info .stadium {
+    margin: 0 45px;
+}
+#scorebord .game_info .tournament_image {
+    width: 30px;
+    margin-right: 15px;
+}
+#scorebord .game_info .tournament_text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* scoreboard section css end */
