@@ -58,3 +58,70 @@ li {
 }
 
 /* scoreboard section css end */
+
+/* field section css start */
+#field {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.field_image1, .field_image2 {
+    position: relative;
+    margin-bottom: 50px;
+}
+.flag_image {
+    width: 72px;
+}
+.flag_img1,.flag_img2, .flag_img3,.flag_img4,.flag_img5,.flag_img6,.flag_img7,.flag_img8,.flag_img9,.flag_img10,.flag_img11{
+    position: absolute;
+}
+.flag_img1{
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.flag_img2{
+    top: 25%;
+    left: 15%;
+}
+.flag_img3{
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.flag_img4{
+    top: 25%;
+    right: 15%;
+}
+.flag_img5 {
+    top: 39%;
+    left: 33%;
+}
+.flag_img6 {
+    top: 39%;
+    right: 33%;
+}
+.flag_img7 {
+    top: 64%;
+    left: 13%;
+}
+.flag_img8 {
+    top: 64%;
+    left: 33%;
+}
+.flag_img9 {
+    top: 64%;
+    right: 33%;
+}
+.flag_img10 {
+    top: 64%;
+    right: 13%;
+}
+.flag_img11 {
+    top: 78%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.field_image2 .flag_img3 {
+    top: 54%;
+}
+/* field section css end */

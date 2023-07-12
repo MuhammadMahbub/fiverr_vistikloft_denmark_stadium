@@ -1,0 +1,83 @@
+@media screen and (max-width: 1399px) {
+}
+@media screen and (max-width: 1199px) {
+    .flag_image {
+        width: 56px;
+    }
+    .flag_img5, .flag_img6 {
+        top: 38%;
+    }
+    .flag_img7, .flag_img8,.flag_img9, .flag_img10 {
+        top: 63%;
+    }
+    .flag_img11 {
+        top: 77%;
+    }
+    .field_image2 .flag_img3 {
+        top: 53%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .flag_image {
+        width: 72px;
+    }
+    .flag_img1 {
+        top: 9%;
+    }
+    .flag_img5, .flag_img6 {
+        top: 40%;
+    }
+    .flag_img7, .flag_img8,.flag_img9, .flag_img10 {
+        top: 64%;
+    }
+    .flag_img11 {
+        top: 78%;
+    }
+    .field_image2 .flag_img3 {
+        top: 54%;
+    }
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 575px) {
+    #scorebord {
+        margin-top: 50px;
+    }
+    #scorebord .game_info .stadium  {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #field {
+        margin-top: 50px;
+    }
+    .flag_image {
+        width: 44px;
+    }
+}
+@media screen and (max-width: 423px) {
+    #scorebord .score h2 {
+        font-size: 32px;
+    }
+    #scorebord .score button {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 0px 32px;
+    }
+    #scorebord .game_info .tournament_image {
+        width: 25px;
+        margin-right: 8px;
+    }
+    #scorebord .game_info .tournament_text {
+        font-size: 18px;
+    }
+    .flag_img5, .flag_img6 {
+        top: 38%;
+    }
+}
+@media screen and (max-width: 374px) {
+}
+@media screen and (max-width: 323px) {
+    .flag_image {
+        width: 39px;
+    }
+}
