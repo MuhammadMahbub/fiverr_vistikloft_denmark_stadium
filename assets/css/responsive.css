@@ -21,7 +21,7 @@
     .flag_image {
         width: 72px;
     }
-    .flag_img1 {
+    .field_image1 .flag_img1, .field_image2 .flag_img1 {
         top: 9%;
     }
     .flag_img5, .flag_img6 {
@@ -38,18 +38,15 @@
     }
 }
 @media screen and (max-width: 767px) {
-}
-@media screen and (max-width: 575px) {
-    #scorebord {
-        margin-top: 50px;
+    .score , .game_info{
+        width: 70%;
+        margin: auto;
     }
     #scorebord .game_info .stadium  {
-        margin-bottom: 10px;
-        margin-top: 10px;
+        margin: 5px;
     }
-    #field {
-        margin-top: 50px;
-    }
+}
+@media screen and (max-width: 575px) {
     .flag_image {
         width: 44px;
     }
