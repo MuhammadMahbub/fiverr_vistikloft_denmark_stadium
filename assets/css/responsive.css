@@ -1,6 +1,9 @@
 @media screen and (max-width: 1399px) {
 }
 @media screen and (max-width: 1199px) {
+    .field_image1, .field_image2 {
+        height: auto;
+    }
     .flag_image {
         width: 56px;
     }
@@ -19,7 +22,22 @@
 }
 @media screen and (max-width: 991px) {
     .flag_image {
-        width: 72px;
+        width: 40px;
+    }
+    #scorebord .score h2 {
+        font-size: 36px;
+    }
+    #scorebord .score button {
+        padding: 0px 30px;
+        font-size: 36px;
+        margin: 0 12px;
+    }
+    #scorebord .game_info .tournament_image {
+        width: 24px;
+        margin-right: 8px;
+    }
+    #scorebord .game_info .tournament_text {
+        font-size: 18px;
     }
     .field_image1 .flag_img1, .field_image2 .flag_img1 {
         top: 9%;
@@ -39,42 +57,89 @@
 }
 @media screen and (max-width: 767px) {
     .score , .game_info{
-        width: 70%;
+        width: 60%;
         margin: auto;
     }
     #scorebord .game_info .stadium  {
         margin: 5px;
     }
-}
-@media screen and (max-width: 575px) {
-    .flag_image {
-        width: 44px;
+    #scorebord .score h2, #scorebord .score button {
+        font-size: 32px;
     }
 }
-@media screen and (max-width: 423px) {
-    #scorebord .score h2 {
-        font-size: 32px;
+@media screen and (max-width: 575px) {
+    #scorebord .score h2, #scorebord .score button {
+        font-size: 28px;
     }
     #scorebord .score button {
         margin-top: 5px;
         margin-bottom: 5px;
         padding: 0px 32px;
     }
+    #field {
+        margin-top: 30px;
+    }
+    .flag_image {
+        width: 26px;
+    }
+    .field_image1 .flag_img1, .field_image2 .flag_img1 {
+        top: 8%;
+    }
+    .field_image1 .flag_img5, .field_image2 .flag_img5, .field_image1 .flag_img6, .field_image2 .flag_img6 {
+        top: 37%;
+    }
+    .field_image2 .flag_img3 {
+        top: 52%;
+    }
+    .field_image1 .flag_img7, .field_image1 .flag_img8, .field_image1 .flag_img9, .field_image1 .flag_img10,
+    .field_image2 .flag_img7, .field_image2 .flag_img8, .field_image2 .flag_img9, .field_image2 .flag_img10 {
+        top: 63%;
+    }
+    .field_image1 .flag_img11, .field_image2 .flag_img11 {
+        top: 77%;
+    }
+}
+@media screen and (max-width: 423px) {
     #scorebord .game_info .tournament_image {
-        width: 25px;
-        margin-right: 8px;
+        width: 22px;
     }
     #scorebord .game_info .tournament_text {
         font-size: 18px;
     }
-    .flag_img5, .flag_img6 {
-        top: 38%;
+    .flag_image {
+        width: 23px;
     }
 }
 @media screen and (max-width: 374px) {
 }
 @media screen and (max-width: 323px) {
+    #scorebord .game_info .tournament_image {
+        width: 20px;
+    }
+    .score, .game_info {
+        width: 70%;
+    }
     .flag_image {
-        width: 39px;
+        width: 19px;
+    }
+    .field_image1 .flag_img1, .field_image2 .flag_img1 {
+        top: 6%;
+    }
+    .field_image1 .flag_img2, .field_image2 .flag_img2,
+    .field_image1 .flag_img3,
+    .field_image1 .flag_img4, .field_image2 .flag_img4 {
+        top: 23%;
+    }
+    .field_image2 .flag_img3 {
+        top: 50%;
+    }
+    .field_image1 .flag_img5, .field_image2 .flag_img5, .field_image1 .flag_img6, .field_image2 .flag_img6 {
+        top: 36%;
+    }
+    .field_image1 .flag_img7, .field_image1 .flag_img8, .field_image1 .flag_img9, .field_image1 .flag_img10, .field_image2 .flag_img7, .field_image2 .flag_img8, .field_image2 .flag_img9, .field_image2 .flag_img10 {
+        top: 62%;
+    }
+    .field_image1 .flag_img11, .field_image2 .flag_img11 {
+        top: 75%;
     }
 }

@@ -62,8 +62,13 @@ li {
 /* field section css start */
 #field {
     margin-top: 50px;
-    margin-bottom: 100px;
 }
+/* .field_image1, .field_image2 {
+    height: 650px;
+}
+.field_image1 img, .field_image2 img {
+    height: 100%;
+} */
 .field_image1, .field_image2 {
     position: relative;
     margin-bottom: 50px;
